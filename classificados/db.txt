@@ -1,0 +1,28 @@
+--
+-- Estrutura da tabela `anuncios`
+--
+
+CREATE TABLE IF NOT EXISTS `anuncios` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `categoria` int(20) NOT NULL,
+  `thumb` varchar(255) NOT NULL,
+  `foto` varchar(255) NOT NULL,
+  `nome` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `data` date NOT NULL,
+  `descricao` text NOT NULL,
+  `status` varchar(20) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `categorias`
+--
+
+CREATE TABLE IF NOT EXISTS `categorias` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

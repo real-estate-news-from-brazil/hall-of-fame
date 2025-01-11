@@ -1,0 +1,78 @@
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666;
+	outline:none;
+	margin:0;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.form{
+	background-color: #F8F8F8;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #CCC;
+	padding-right: 6px;
+	padding-left: 6px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+	outline:none;
+}
+.form:focus, .form:hover{
+	border: 1px solid #999;
+}
+.botao{
+	background-color: #666;
+	color: #CCC;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	padding-top: 4px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	padding-left: 5px;
+	cursor:pointer;
+}
+.botao:focus, .botao:hover{
+	background-color: #5C5C5C;
+}
+#menu_categorias a{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 200px;
+	display: block;
+	background-color: #f5f5f5;
+	font-size: 13px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #999;
+	text-decoration: none;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#menu_categorias a:hover{
+	background-color: #666;
+	color: #CCC;
+	text-decoration: none;
+}
+#table{
+	background-color: #d6d6d6;
+}
+#tr{
+	background-color: #FFF;
+}
+#tr:hover{
+	background-color: #f8f8f8;
+}
